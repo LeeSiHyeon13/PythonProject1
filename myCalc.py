@@ -8,6 +8,9 @@ def sub_func(n1, n2):
 def mul_func(n1, n2):
     return n1*n2
 
+def sq_func(n1, n2):
+    return n1 ** n2
+
 ## 전역
 num1, num2, result = 100, 200, 0
 
@@ -20,3 +23,6 @@ print(num1, '-', num2, '=', result)
 
 result = mul_func(num1, num2)
 print(num1, '*', num2, '=', result)
+
+result = sq_func(num1, num2)
+print(num1, '**', num2, '=', result)
